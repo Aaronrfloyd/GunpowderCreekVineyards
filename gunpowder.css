@@ -1,0 +1,378 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+::selection {
+	background: #ffc600;
+}
+
+/* Header */
+header {
+	margin: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #2e0c33;
+}
+
+header img {
+	height: 75px;
+	border-radius: 60px;
+	padding: 12.5px;
+	float: left;
+	position: relative;
+	left:60px;
+}
+
+.backTop {
+	width: 75px;
+	height: 25px;
+	border-radius: 4px 0px 0px 4px;
+	padding: 5px 0px 0px 10px;
+	float: right;
+	position: fixed;
+	bottom: 100px;
+	right: 0px;
+	background-color: #2e0c33;
+	z-index: 1;
+}
+
+.backTop-btn a {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Amatic SC', cursive;
+	font-size: 14px;
+}
+
+#mainNav {
+	float: right;
+	display: block;
+	padding: 35px 30px 30px 30px;
+	text-align: center;
+	position: relative;
+}
+
+
+#mainNav a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-weight: lighter;
+	font-size: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 100px;
+	border-radius: 4px;
+	transition: all 0.3s ease;
+}
+
+#mainNav a:hover {
+	background-color: #ffc600;
+	color: #333333;
+}
+
+/* Banner */
+.banner {
+	width: 100%;
+	height: 600px;
+	background: url("img/Gunpowdervineyard1.jpg") center center no-repeat;
+	background-size: cover;
+	margin: 0px 0px 0px 0px;
+	position: relative;
+}
+
+.bannerText {
+	width: 43%;
+	height: auto;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 4px;
+	position: absolute;
+	margin: 0px 0px 0px 60px;
+	top: 20%;
+}
+
+#banner h1 {
+	color: #2e0c35;
+}
+
+
+/* About */
+#about {
+	width: 100%;
+	height: 600px;
+	background: url("img/Gunpowderbarn1.png") left top;
+	background-size: 1280px 610px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.about-text {
+	width: 47%;
+	height: auto;
+	padding: 20px;
+	margin: 0px 0px 0px 60px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 4px;
+	position: absolute;
+	top: 25%;
+	float: left;
+}
+
+#about h1 {
+	text-align: left;
+	color: #333333;
+}
+
+
+/* Shop */
+#shop {
+	width: 100%;
+	background-color: #333333;
+	position: relative;
+}
+
+.arandell {
+	background: url("img/arandellgrapes4.png") center center no-repeat;
+	width: 20%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	position: relative;
+}
+
+
+.aromella {
+	background: url("img/aromellagrapes3.png") center center no-repeat;
+	width: 20%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	position: relative;
+}
+
+.cayuga {
+	background: url("img/cayugagrapes3.png") center center no-repeat;
+	width: 20%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	position: relative;
+}
+
+.norton {
+	background: url("img/nortongrapes3.png") center center no-repeat;
+	width: 20%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	position: relative;
+}
+.stuben {
+	background: url("img/stubengrapes3.jpg") center center no-repeat;
+	width: 20%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	position: relative;
+}
+
+.merchBtn {
+	border-radius: 4px;
+	width: 150px;
+	border: 4px solid #ffffff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: all 0.3s ease;
+	position: relative;
+	top: 40%
+}
+
+.merchBtn:hover {
+	background-color: rgb(49, 12, 49);
+	border: 4px solid #faf9f77a;
+	color: white;
+}
+
+.merchBtn:focus {
+	background-color: #333333;
+	color: white;
+}
+
+/* Blog */
+#blog {
+	clear: both;
+	width: 100%;
+	height: auto;
+	padding: 30px 0px 30px 0px;
+	position: relative;
+	background-color: #ffc600
+}
+
+.blog-text {
+	width: 75%;
+	height: auto;
+	margin: 0px auto 0px auto;
+	padding: 30px;
+	background-color: white;
+	border-radius: 4px;
+	position: relative;
+}
+
+/* Contact */
+.Gunpowderjon {
+	background: url("img/Gunpowderjon.jpg") center center no-repeat;
+	width: 60%;
+	height: 400px;
+	margin: 40px 60px 0px 60px;
+	background-size: 1440px 960px;
+	float: right;
+	
+	position: relative;
+}
+
+legend {
+	font-family: 'Amatic SC', cursive;
+	font-size: 28px;
+	color:black;
+}
+
+#contact {
+	clear: left;
+	padding: 30px 30px 30px 70px;
+	font-family: sans-serif;
+	font-size: 16px;
+	width: 100%;
+	
+}
+
+#contact button {
+	background-color: #ffc600;
+	font-size: 16px;
+	text-align: center;
+	width: 80px;
+	height: 40px;
+    border: 0;
+	border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+#contact button:hover {
+	background-color: #333333;
+	color: white;
+}
+
+#contact button:focus {
+	background-color: #666666;
+}
+
+#contact input {
+	width: 300px;
+}
+
+input {
+	border-radius: 4px;
+	appearance: none;
+}
+
+textarea {
+	width: 300px;
+	height: 100px;
+	border-radius: 5px;
+}
+
+/* Footer */
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: #2e0c33;
+	position: relative;
+	margin: 0;
+}
+
+.copyRight {
+	color: white;
+	float: left;
+	font-size: 10px;
+	padding: 0px 50px 0px 50px;
+	position: relative;
+	top: 20%;
+}
+
+.copyRight a {
+	text-decoration: none;
+	color: #ffc600;
+}
+
+.copyRight a:hover {
+	color: white;
+}
+
+.soc-buttons {
+	height: 60px;
+	padding: 0px 20px 0px 20px;
+	position: relative;
+	top: 35%;
+	float: right;
+}
+
+span.icon a:link {
+	display: block;
+	text-indent: -9999px;
+}
+
+span.insta-button a:link {
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	background: url("img/intagram_icon40.png") no-repeat;
+	transition: all 0.2s ease;
+	float:left;
+	padding: 0px 0px 0px 0px;
+}
+
+span.insta-button a:hover {
+	background-position: 0px 0px;
+	overflow: hidden;
+}
+
+span.twitter-button a:link {
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	background: url("img/twitter_icon40.png")no-repeat;
+	transition: all 0.2s ease;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	
+}
+
+span.twitter-button a:hover {
+	background-position: 0px 0px;
+	overflow: hidden;
+}
